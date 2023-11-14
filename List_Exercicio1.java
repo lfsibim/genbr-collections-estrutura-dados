@@ -21,9 +21,5 @@ public class List_Exercicio1 {
 		
 		Collections.sort(cores);
 		System.out.println("\nCores ordenadas: "+cores);
-		
-		
-
 	}
-
 }

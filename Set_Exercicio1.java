@@ -25,7 +25,5 @@ public class Set_Exercicio1 {
 		while(iNumeros.hasNext()) {
 			System.out.println(iNumeros.next());
 		}
-
 	}
-
 }
