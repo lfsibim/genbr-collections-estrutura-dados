@@ -38,7 +38,6 @@ public class Stack_Exercicio1 {
 				}else {
 					System.out.println("\nLista de Livros na Pilha: "+livros);
 				}
-				
 				break;
 			case 3:
 				if(livros.isEmpty() == true) {
@@ -56,5 +55,4 @@ public class Stack_Exercicio1 {
 			}
 		}while(op >= 1 || op <= 3);
 	}
-
 }

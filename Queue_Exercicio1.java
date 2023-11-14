@@ -13,7 +13,6 @@ public class Queue_Exercicio1 {
 		int op;
 		
 		do {
-			
 			System.out.println("\n************************************************");
 			System.out.println("\n\t  Menu Gerenciamento de Fila");
 			System.out.println("\n\t1 - Adicionar Cliente na Fila");
