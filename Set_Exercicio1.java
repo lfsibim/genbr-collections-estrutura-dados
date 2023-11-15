@@ -12,6 +12,7 @@ public class Set_Exercicio1 {
 		Scanner input = new Scanner(System.in);
 		Set<Integer> numeros = new HashSet<Integer>();
 		
+		//
 		System.out.println("Digite 10 números inteiros não repetidos.");
 		for(int i=1; i<=10; i++) {
 			System.out.println("\n"+i+"º número: ");

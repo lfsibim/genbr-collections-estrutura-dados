@@ -12,6 +12,7 @@ public class Stack_Exercicio1 {
 		int op;
 		
 		do {
+			//criar menu
 			System.out.println("\n************************************************");
 			System.out.println("\n\t Pilha de Livros");
 			System.out.println("\n\t1 - Adicionar Livro na pilha");
@@ -22,9 +23,10 @@ public class Stack_Exercicio1 {
 			System.out.println("\nEntre com a opção desejada: ");
 			op = input.nextInt();
 			
+			//crud com a opção desejada
 			switch(op) {
 			case 1:
-				input.nextLine();
+				input.nextLine(); //limpar cache
 				System.out.println("\nNome do Livro: ");
 				String livro = input.nextLine();
 				livros.add(livro);
@@ -40,7 +42,7 @@ public class Stack_Exercicio1 {
 				}
 				break;
 			case 3:
-				if(livros.isEmpty() == true) {
+				if(livros.isEmpty()) {
 					System.out.println("\nA Pilha de Livros está vazia!");
 				}else {
 					System.out.println("\nO Livro '"+livros.pop()+"' foi retirado da Pilha!");

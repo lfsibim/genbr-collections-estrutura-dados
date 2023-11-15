@@ -9,7 +9,7 @@ public class List_Exercicio1 {
 	public static void main(String[] args) {
 		
 		Scanner input = new Scanner(System.in);
-		ArrayList<String> cores = new ArrayList();
+		ArrayList<String> cores = new ArrayList<String>();
 		
 		for(int x=1; x<=5; x++) {
 			System.out.println("\nDigite a "+x+"ª cor: ");
